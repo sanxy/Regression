@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Regression</string>
+    <string name="main_activity_name">All Data</string>
+    <string name="add_task_activity_name">Add New Data</string>
+
+    <!-- This taskEntry task has a unicode character for "..." = "&#8230;" -->
+
+    <string name="add_button">Add</string>
+    <string name="update_button">Update</string>
+    <string name="file_maintenance">File Maintenance</string>
+    <string name="forecast_technique">Forecast Technique</string>
+    <string name="report_generation">Report Generation</string>
+    <string name="help">Help</string>
+    <string name="edit_text_address">Customer\'s address&#8230;</string>
+    <string name="edit_text_pattern">Pattern</string>
+    <string name="edit_text_period">Period</string>
+    <string name="edit_text_tot_no_obs">Number of observation&#8230;</string>
+    <string name="view_forecast">Forecast Technique</string>
+    <string name="edit_text_name">Customer\'s name&#8230;</string>
+    <string name="file_sub"><![CDATA[
+    The following can be done under the File Maintenance :
+        \n\u2022 Adding new data to database
+        \n\u2022 Viewing existing data
+        \n\u2022 Updating existing data
+        \n\u2022 Deleting existing data
+    ]]>
+    </string>
+    <string name="forecast_sub"><![CDATA[
+        The following can be done under the Forecast Technique :
+        \n\u2022 Add several point to graph
+        \n\u2022 Save plotted graph to phone memory
+        ]]>
+        </string>
+    <string name="help_sub">This shows the total number of data in the database in grid view and
+        when a graph image is selected a detail page of the graph image is shown</string>
+    <string name="all_data">All Data</string>
+    <string name="add_point">Add Point</string>
+    <string name="x">x</string>
+    <string name="y">y</string>
+    <string name="view_report_generation">Report Generation</string>
+    <string name="save">Save</string>
+    <string name="folder_graph">Graph</string>
+    <string name="delete">Delete</string>
+    <string name="view_image_detail">Graph View</string>
+
+
+</resources>

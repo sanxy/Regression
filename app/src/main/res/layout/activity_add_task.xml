@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+    This vertical linear layout contains all the views in the AddTaskActivity code.
+    This includes an EditText to add taskEntry task description, and buttons to select a priority
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingEnd="@dimen/activity_horizontal_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingStart="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <!-- EditText for get taskEntry name input -->
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:maxLength="20"
+        android:hint="@string/edit_text_name"
+        android:paddingBottom="@dimen/activity_horizontal_margin" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/editTextAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:maxLength="25"
+        android:hint="@string/edit_text_address"
+        android:paddingBottom="@dimen/activity_horizontal_margin" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/editTextPattern"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:maxLength="10"
+        android:hint="@string/edit_text_pattern"
+        android:paddingBottom="@dimen/activity_horizontal_margin" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/editTextPeriod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:maxLength="15"
+        android:hint="@string/edit_text_period"
+        android:paddingBottom="@dimen/activity_horizontal_margin" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/editTextTotNoObs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:inputType="number"
+        android:maxLength="6"
+        android:hint="@string/edit_text_tot_no_obs"
+        android:paddingBottom="@dimen/activity_horizontal_margin" />
+
+    <!-- Add button -->
+    <Button
+        android:id="@+id/saveButton"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:text="@string/add_button"
+        android:textColor="@android:color/primary_text_dark" />
+
+</LinearLayout>

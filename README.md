@@ -13,14 +13,14 @@ Currently the following functions are implemented:
 * Material Design interface *Basic add, modify and delete 
 * Save graph view, view all saved graphs
 
-# Libraries 
-•	[ButterKnife](http://jakewharton.github.io/butterknife/)
-•	[Room database](https://developer.android.com/topic/libraries/architecture/room)
-•	[Android lifecycle](https://developer.android.com/guide/components/activities/activity-lifecycle)
-•	[GraphView](https://github.com/jjoe64/GraphView)
+## Libraries 
+*	[ButterKnife](http://jakewharton.github.io/butterknife/)
+*	[Room database](https://developer.android.com/topic/libraries/architecture/room)
+*	[Android lifecycle](https://developer.android.com/guide/components/activities/activity-lifecycle)
+*	[GraphView](https://github.com/jjoe64/GraphView)
 
 
-# Deployment
+## Deployment
 Any android device
-# Author
+## Author
 [Yusuf Adefolahan](https://github.com/sanxy)
